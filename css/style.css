@@ -148,7 +148,7 @@ header{
         right: 25px;
     }
 }
-@media (max-width:360px){
+@media (max-width:375px){
     .content_text{
         font-size: 30px;
         bottom: 30px;
@@ -252,7 +252,7 @@ header{
         font-size: 90px;
     }
 }
-@media (max-width:360px){
+@media (max-width:375px){
     .top_left , .down_right{
         font-size: 70px;
     }
@@ -552,7 +552,7 @@ header{
     }
 
 }
-@media (max-width:360px){
+@media (max-width:375px){
      .skew_right{
         
         bottom: 120px;
@@ -726,7 +726,7 @@ header{
     }
     
 }
-@media (max-width:360px){
+@media (max-width:375px){
     .service_pic{
         
         right: 50px;
@@ -900,7 +900,7 @@ header{
         left: -40%;
     }
 }
-@media (max-width:360px){
+@media (max-width:375px){
     .map_position{
         left: 30%;
         top: 15%;
@@ -980,7 +980,7 @@ header{
         font-size: 12px;
     }
 }
-@media (max-width:360px){
+@media (max-width:370px){
     .container_title h1{
         top: 42%;
         left: 20%;
