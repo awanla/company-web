@@ -96,7 +96,7 @@ header{
         height: 400px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .content_pic{
         width: 100%;
         height: 500px;
@@ -121,7 +121,7 @@ header{
         height: 500px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .content_pic .imge{
         width: 100%;
         height: 500px;
@@ -142,7 +142,7 @@ header{
     
     
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .content_text{
         bottom: 30px;
         right: 25px;
@@ -174,7 +174,7 @@ header{
         bottom: -200px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .content_icon{
         bottom: -110px;
     }
@@ -247,7 +247,7 @@ header{
         font-size: 150px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .top_left , .down_right{
         font-size: 90px;
     }
@@ -287,7 +287,7 @@ header{
         padding: 120px 0;
     }
 }
-@media (max-width:411px){
+@media (max-width:41px){
     .news_all{
         padding: 60px 0;
     }
@@ -338,7 +338,7 @@ header{
     .news_box a{
     line-height: 25px;
 }
-@media (max-width:411px){
+@media (max-width:414px){
       .news_box li{
         font-size: 18px;
         padding: 0px 5px;
@@ -498,7 +498,7 @@ header{
     font-size: 18px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     
     .skew_right{
         
@@ -628,7 +628,7 @@ header{
         bottom: 150px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .skew{
         padding: 180px 220px;
         bottom: 110px;
@@ -713,7 +713,7 @@ header{
     }
     
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .service_pic{
         height: 200px;
         width: 400px;
@@ -785,7 +785,7 @@ header{
         font-size: 18px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .service_tilte h1{
         font-size: 55px;
         top:80px;
@@ -836,7 +836,7 @@ header{
         bottom: 150px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .skew_contect{
         padding: 180px 210px;
         bottom: 110px;
@@ -889,7 +889,7 @@ header{
         left: -40%;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .map_position{
         left: 50%;
         top: 10%;
@@ -967,7 +967,7 @@ header{
         font-size: 18px;
     }
 }
-@media (max-width:411px){
+@media (max-width:414px){
     .container_title h1{
         top: 35%;
         left: 30%;
