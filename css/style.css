@@ -857,6 +857,15 @@ header{
 
 
 /* $contect */
+.contect_all{
+    height: 100%;
+    width: 100%;
+}
+.contect_animate{
+     /* height: 50px; */
+    animation: from_right 3s backwards;
+    animation-play-state: paused;
+}
 .skew_contect{
     position: absolute;
     background-color: blue;
@@ -864,7 +873,7 @@ header{
     right: -80px;
     bottom: 250px;
     transform: skew(-20deg);
-    animation: from_right 3s backwards;
+    
 }
 @media (max-width:1440px){
     .skew_contect{
@@ -960,23 +969,31 @@ header{
     }
 }
 
+
 .container_title,.container_text{
     position: relative;
     width: 100%;
     height: 100vh;
+   
 }
+
 .container_title h1{
     position: absolute;
     top: 17.5%;
     left: 10%;
     font-size: 72px;
     color: blue;
+    animation: from_left 2s both;
+    animation-play-state: paused;
 }
 .container_text{
     font-size: 20px;
     color: aliceblue;
     top: 40%;
     left: 10%;
+    z-index: 50;
+    animation: from_left 2s .5s both;
+    animation-play-state: paused;
     
 }
 .container_text li{

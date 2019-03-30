@@ -21,11 +21,18 @@ $(document).ready(function () {
             $(".about_title").css("animation-play-state", "running");
         }
         var scrollDistance = $(window).scrollTop();
-        if (scrollDistance > 2300) {
+        if (scrollDistance > 2100) {
             $(".skew_animate").css("animation-play-state", "running");
             $(".service_pic .pic").css("animation-play-state", "running");
             $(".service_tilte").css("animation-play-state", "running");
             
+        }
+        var scrollDistance = $(window).scrollTop();
+        if (scrollDistance > 3000) {
+            $(".contect_animate").css("animation-play-state", "running");
+            $(".container_title h1").css("animation-play-state", "running");
+            $(".container_text").css("animation-play-state", "running");
+
         }
     });
     
