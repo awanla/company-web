@@ -2,36 +2,36 @@ $(document).ready(function () {
 
     // header color change
     $(window).scroll(function () {
-        // var scrollDistance = $(window).scrollTop();
+        var scrollDistance = $(window).scrollTop();
 
-        // if (scrollDistance > 90) {
-        //     $(".gototop").fadeIn(1000);
-        // }
-        // else {
-        //     $(".gototop").fadeOut();
-        // }
+        if (scrollDistance > 90) {
+            $(".gototop").fadeIn(1000);
+        }
+        else {
+            $(".gototop").fadeOut();
+        }
         var scrollDistance = $(window).scrollTop();
             if (scrollDistance > 350) {
-                $(".news_text").css("animation-play-state", "running");
-                $(".news_box").css("animation-play-state", "running");
+                $(".news_text").addClass("news_text_animate");
+                $(".news_box").addClass("news_box_animation");
             }
         var scrollDistance = $(window).scrollTop();
             if (scrollDistance > 1250) {
-                $(".about_skew_animation").css("animation-play-state", "running");
-                $(".about_title").css("animation-play-state", "running");
+                $(".about_skew_animation").addClass("about_skew_animationadd");
+                $(".about_title").addClass("about_title_animation");
             }
         var scrollDistance = $(window).scrollTop();
             if (scrollDistance > 2100) {
-                $(".skew_animate").css("animation-play-state", "running");
-                $(".service_pic .pic").css("animation-play-state", "running");
-                $(".service_tilte").css("animation-play-state", "running");
+                $(".skew_animate").addClass("skew_animateadd");
+                $(".service_pic .pic").addClass("service_pic_animate");
+                $(".service_tilte").addClass("service_tilte_animaton");
                 
             }
         var scrollDistance = $(window).scrollTop();
             if (scrollDistance > 3000) {
-                $(".contect_animate").css("animation-play-state", "running");
-                $(".container_title h1").css("animation-play-state", "running");
-                $(".container_text").css("animation-play-state", "running");
+                $(".contect_animate").addClass("contect_animateadd");
+                $(".title").addClass("container_title_animation");
+                $(".container_text").addClass("container_text_animation");
 
             }
     });
