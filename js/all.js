@@ -28,7 +28,7 @@ $(document).ready(function () {
                 
             }
         var scrollDistance = $(window).scrollTop();
-            if (scrollDistance > 2700) {
+            if (scrollDistance > 2500) {
                 $(".contect_animate").addClass("contect_animateadd");
                 $(".title").addClass("container_title_animation");
                 $(".container_text").addClass("container_text_animation");
